@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerri</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <!-- Fixed -->
+    <a href="#" class="setting position-fixed top-50 start-0 z-1"
+      ><i class="fa-solid fa-gear fa-spin"></i
+    ></a>
+
+    <a href="#home" class="btn-up text-decoration-none"><i class="fa-solid fa-angle-up"></i></a>
+
+    <!-- ====== Start Navbar ====== -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar-example">
+      <div class="container">
+        <a class="navbar-brand" href="#">Kerri</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li class="nav-item dropdown position-relative">
+                  <a
+                    class="nav-link dropdown-toggle" id="nested-dropdown"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" id="nested-dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                    <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#clients">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ====== End Navbar ====== -->
+
+    <!-- ====== Start Main ====== -->
+    <main>
+      <!-- ====== Start Header ====== -->
+      <header
+        id="home"
+        class="min-vh-100 d-flex justify-content-center align-items-center text-center position-relative"
+      >
+        <div class="home-caption text-white text-center">
+          <span>Welcome</span>
+          <h1>I'm <span id="element"></span></h1>
+          <p class="fs-6 max-w-500 text-white-50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            neque quo velit officiis dolores dignissimos tenetur veritatis!
+          </p>
+          <button class="btn btn-outline-light rounded-pill px-4 py-2">
+            Download CV
+          </button>
+        </div>
+        <a href="#about" class="scroll"></a>
+      </header>
+      <!-- ====== End Header ====== -->
+      <!-- ====== Start About ====== -->
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="img-about">
+                <img
+                  src="./images/about.jpg"
+                  alt="about"
+                  class="w-100 img-thumbnail"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h2><span class="fw-bold">About</span> Me</h2>
+              <span class="fs-3"
+                >Hello! <span class="custom-color">I'm Kerri</span></span
+              >
+              <p class="lead">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+              <p class="lead">
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using 'Content
+                here, content here', making it look like readable English.
+              </p>
+              <p class="lead">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+                slightly believable.
+              </p>
+              <div
+                class="progress my-3"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="0"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar px-2 d-flex justify-content-between align-items-center flex-row"
+                  style="width: 25%"
+                >
+                  <span>HTML</span><span>85%</span>
+                </div>
+              </div>
+              <div
+                class="progress my-3"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar px-2 d-flex justify-content-between align-items-center flex-row"
+                  style="width: 75%"
+                >
+                  <span>CSS</span><span>75%</span>
+                </div>
+              </div>
+              <div
+                class="progress my-3"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar px-2 d-flex justify-content-between align-items-center flex-row"
+                  style="width: 50%"
+                >
+                  <span>PHP</span><span>50%</span>
+                </div>
+              </div>
+              <div
+                class="progress my-3"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar px-2 d-flex justify-content-between align-items-center flex-row"
+                  style="width: 95%"
+                >
+                  <span>JS</span><span>90%</span>
+                </div>
+              </div>
+              <!-- Icon About -->
+              <ul class="">
+                <a href=""
+                  ><li><i class="fa-solid fa-gear"></i></li
+                ></a>
+                <a href=""
+                  ><li><i class="fa-solid fa-gear"></i></li
+                ></a>
+                <a href=""
+                  ><li><i class="fa-solid fa-gear"></i></li
+                ></a>
+                <a href=""
+                  ><li><i class="fa-solid fa-gear"></i></li
+                ></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====== End About ====== -->
+      <!-- ====== Start Services ====== -->
+      <section id="services" class="bg p-5">
+        <div class="headings text-center mb-5">
+          <h2>Our <span class="fw-bold">Services </span></h2>
+          <div class="line m-auto"></div>
+          <p class="max-w-500 m-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+            numquam?
+          </p>
+        </div>
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="card-services bg-white p-5 text-center shadow-sm rounded-3"
+              >
+                <i class="fa-solid fa-chart-simple m-auto fa-2x"></i>
+                <h3>Graphic Designes</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                  consequuntur?
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="card-services bg-white p-5 text-center shadow-sm rounded-3"
+              >
+                <i class="fa-solid fa-chart-simple m-auto fa-2x"></i>
+                <h3>Graphic Designes</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                  consequuntur?
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="card-services bg-white p-5 text-center shadow-sm rounded-3"
+              >
+                <i class="fa-solid fa-chart-simple m-auto fa-2x"></i>
+                <h3>Graphic Designes</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                  consequuntur?
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="card-services bg-white p-5 text-center shadow-sm rounded-3"
+              >
+                <i class="fa-solid fa-chart-simple m-auto fa-2x"></i>
+                <h3>Graphic Designes</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                  consequuntur?
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="card-services bg-white p-5 text-center shadow-sm rounded-3"
+              >
+                <i class="fa-solid fa-chart-simple m-auto fa-2x"></i>
+                <h3>Graphic Designes</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                  consequuntur?
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="card-services bg-white p-5 text-center shadow-sm rounded-3"
+              >
+                <i class="fa-solid fa-chart-simple m-auto fa-2x"></i>
+                <h3>Graphic Designes</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+                  consequuntur?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====== End Services ====== -->
+      <!-- ====== Start Clients ====== -->
+      <section id="clients" class="bg">
+        <div class="headings text-center mb-5">
+          <h2>Our <span class="fw-bold">Clients </span></h2>
+          <div class="line m-auto"></div>
+          <p class="max-w-500 m-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+            numquam?
+          </p>
+        </div>
+        <div class="container">
+          <div id="carouselExampleIndicators" class="carousel slide p-5">
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active text-center"
+                data-bs-interval="2000"
+              >
+                <i class="fa-solid fa-quote-left fa-2x"></i>
+                <img
+                  src="./images/testi-1.jpg"
+                  alt=""
+                  class="rounded-circle img-thumbnail d-block m-auto"
+                />
+                <p class="max-w-500 m-auto">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                  distinctio facere quam.
+                </p>
+                <span>-Ebony verty, <span>Envato</span></span>
+              </div>
+              <div class="carousel-item text-center" data-bs-interval="2000">
+                <i class="fa-solid fa-quote-left fa-2x"></i>
+                <img
+                  src="./images/testi-1.jpg"
+                  alt=""
+                  class="rounded-circle img-thumbnail d-block m-auto"
+                />
+                <p class="max-w-500 m-auto">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                  distinctio facere quam.
+                </p>
+                <span>-Ebony verty, <span class="fw-bold">Envato</span></span>
+              </div>
+              <div class="carousel-item text-center" data-bs-interval="2000">
+                <i class="fa-solid fa-quote-left fa-2x"></i>
+                <img
+                  src="./images/testi-1.jpg"
+                  alt=""
+                  class="rounded-circle img-thumbnail d-block m-auto"
+                />
+                <p class="max-w-500 m-auto">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                  distinctio facere quam.
+                </p>
+                <span>-Ebony verty, <span>Envato</span></span>
+              </div>
+            </div>
+            <div class="carousel-indicators position-static b">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ====== End Clients ====== -->
+
+      <!-- ====== Start portfolio ====== -->
+      <section id="portfolio">
+        <div class="headings text-center mb-5">
+          <h2>Our <span class="fw-bold">Portfolio </span></h2>
+          <div class="line m-auto"></div>
+          <p class="max-w-500 m-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+            numquam?
+          </p>
+        </div>
+        <div class="container">
+          <!-- ============== Start Nav and Taps ================== -->
+
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-all"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                All
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-seo"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                SEO
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-webdesign"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                Web Design
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-disabled-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-work"
+                type="button"
+                role="tab"
+                aria-controls="pills-disabled"
+                aria-selected="false"
+              >
+                Work
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-disabled-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-wordpress"
+                type="button"
+                role="tab"
+                aria-controls="pills-disabled"
+                aria-selected="false"
+              >
+                WordPress
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-all"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+              tabindex="0"
+            >
+              <div class="row gy-5">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic1"
+                  >
+                    <img src="./images/1.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic2"
+                  >
+                    <img src="./images/2.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic3"
+                  >
+                    <img src="./images/3.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic4"
+                  >
+                    <img src="./images/4.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic5"
+                  >
+                    <img src="./images/5.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic6"
+                  >
+                    <img src="./images/6.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-seo"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+              tabindex="0"
+            >
+              <div class="row gy-5">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic1"
+                  >
+                    <img src="./images/1.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic2"
+                  >
+                    <img src="./images/2.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic3"
+                  >
+                    <img src="./images/3.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic5"
+                  >
+                    <img src="./images/5.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-webdesign"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+              tabindex="0"
+            >
+              <div class="row gy-5">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic1"
+                  >
+                    <img src="./images/1.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic2"
+                  >
+                    <img src="./images/2.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-work"
+              role="tabpanel"
+              aria-labelledby="pills-disabled-tab"
+              tabindex="0"
+            >
+              <div class="row gy-5">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic1"
+                  >
+                    <img src="./images/1.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic2"
+                  >
+                    <img src="./images/2.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic3"
+                  >
+                    <img src="./images/3.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-wordpress"
+              role="tabpanel"
+              aria-labelledby="pills-disabled-tab"
+              tabindex="0"
+            >
+              <div class="row gy-5">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic1"
+                  >
+                    <img src="./images/1.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic2"
+                  >
+                    <img src="./images/2.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic3"
+                  >
+                    <img src="./images/3.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic4"
+                  >
+                    <img src="./images/4.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="port-img position-relative overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic5"
+                  >
+                    <img src="./images/5.jpg" alt="" class="w-100 rounded-3" />
+                    <div class="port-layer rounded-3">
+                      <div class="port-details text-center">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">Project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ============== End Nav and Taps ================== -->
+
+            <!-- ============== Start Modal ================== -->
+            <!-- Modal pic1-->
+            <div
+              class="modal fade"
+              id="pic1"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./images/1.jpg" alt="" class="w-100" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal pic2-->
+            <div
+              class="modal fade"
+              id="pic2"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./images/2.jpg" alt="" class="w-100" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal pic3-->
+            <div
+              class="modal fade"
+              id="pic3"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./images/3.jpg" alt="" class="w-100" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal pic4-->
+            <div
+              class="modal fade"
+              id="pic4"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./images/4.jpg" alt="" class="w-100" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal pic5-->
+            <div
+              class="modal fade"
+              id="pic5"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./images/5.jpg" alt="" class="w-100" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal pic6-->
+            <div
+              class="modal fade"
+              id="pic6"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./images/6.jpg" alt="" class="w-100" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ============== End Modal ================== -->
+          </div>
+        </div>
+      </section>
+      <!-- ====== End Portfolio ====== -->
+
+      <!-- ====== Start Blog ====== -->
+      <section id="blog">
+        <div class="headings text-center mb-5">
+          <h2>Our <span class="fw-bold">Blog </span></h2>
+          <div class="line m-auto"></div>
+          <p class="max-w-500 m-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+            numquam?
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="all-blog bg-white border border-1 p-2">
+                <div class="blog-img position-relative overflow-hidden">
+                  <img src="./images/blog-1.jpg" alt="" class="w-100" />
+                  <div
+                    class="blog-layer d-flex justify-content-center align-items-center text-white"
+                  >
+                    layer
+                  </div>
+                </div>
+                <div class="blog-details">
+                  <h3 class="h4">There are many variations</h3>
+                  <span
+                    >11 March 2018
+                    <span class="custom-color">By Kerri</span></span
+                  >
+                  <p>
+                    Sit sagittis vulputate laoreet sodales tortor nulla lobortis
+                    bibendum netus primis fames. Lobortis ultricies.
+                  </p>
+                  <a href="#" class="text-decoration-none custom-color">
+                    Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="all-blog bg-white border border-1 p-2">
+                <div class="blog-img position-relative overflow-hidden">
+                  <img src="./images/blog-2.jpg" alt="" class="w-100" />
+                  <div
+                    class="blog-layer d-flex justify-content-center align-items-center text-white"
+                  >
+                    layer
+                  </div>
+                </div>
+                <div class="blog-details">
+                  <h3 class="h4">There are many variations</h3>
+                  <span
+                    >11 March 2018
+                    <span class="custom-color">By Kerri</span></span
+                  >
+                  <p>
+                    Sit sagittis vulputate laoreet sodales tortor nulla lobortis
+                    bibendum netus primis fames. Lobortis ultricies.
+                  </p>
+                  <a href="#" class="text-decoration-none custom-color">
+                    Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="all-blog bg-white border border-1 p-2">
+                <div class="blog-img position-relative overflow-hidden">
+                  <img src="./images/blog-3.jpg" alt="" class="w-100" />
+                  <div
+                    class="blog-layer d-flex justify-content-center align-items-center text-white"
+                  >
+                    layer
+                  </div>
+                </div>
+                <div class="blog-details">
+                  <h3 class="h4">There are many variations</h3>
+                  <span
+                    >11 March 2018
+                    <span class="custom-color">By Kerri</span></span
+                  >
+                  <p>
+                    Sit sagittis vulputate laoreet sodales tortor nulla lobortis
+                    bibendum netus primis fames. Lobortis ultricies.
+                  </p>
+                  <a href="#" class="text-decoration-none custom-color">
+                    Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== End Blog ====== -->
+
+      <!-- ====== Start Contact ====== -->
+
+      <section id="contact">
+        <div class="headings text-center mb-5">
+          <h2>Our <span class="fw-bold">Contact </span></h2>
+          <div class="line m-auto"></div>
+          <p class="max-w-500 m-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+            numquam?
+          </p>
+        </div>
+        <div class="container">
+          <div class="row gy-3">
+            <div class="col-lg-6">
+              <div class="input-field">
+                <input type="text" placeholder="Name" class="form-control" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-field">
+                <input type="email" placeholder="Email" class="form-control" />
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="input-field">
+                <input type="text" placeholder="Subject" class="form-control" />
+              </div>
+            </div>
+              <div class="col-lg-12">
+                <div class="input-field">
+                  <textarea
+                    name=""
+                    id=""
+                    placeholder="Message"
+                    class="form-control"
+                    rows="10"
+                  ></textarea>
+                </div>
+              </div>
+              <button class="btn-form text-white ms-auto">Send Message </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== End Contact ====== -->
+    </main>
+    <!-- ====== End Main ====== -->
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Designer", "Photographer"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+      });
+    </script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

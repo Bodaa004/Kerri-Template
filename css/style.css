@@ -1,0 +1,318 @@
+:root {
+  --main-color: #e65f78;
+}
+section {
+  margin: 50px 0;
+}
+.custom-color {
+  color: var(--main-color);
+}
+.navbar .nav-link {
+  position: relative;
+}
+.navbar .nav-link.active::after {
+  width: 100%;
+}
+
+.bg {
+  background-color: #f5f5f5;
+}
+html {
+  scroll-padding: 60px;
+}
+
+.navbar .nav-link::after {
+  content: "";
+  background-color: var(--main-color);
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar .nav-item {
+  width: fit-content !important;
+}
+
+.navbar .nav-item {
+  margin-left: 10px;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0 solid;
+  border-right: 0 solid transparent;
+  border-bottom: 0;
+  border-left: 0 solid transparent;
+}
+
+/* Nested dropdown */
+.dropdown-menu {
+  display: none !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block !important;
+}
+
+#nested-dropdown-menu {
+  position: absolute;
+  right: 100%;
+  top: 0;
+}
+
+#nested-dropdown::after {
+  width: 0;
+}
+
+@media (max-width: 992px) {
+  #nested-dropdown-menu {
+    left: 100%;
+  }  
+}
+/* Start Header */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.max-w-500 {
+  max-width: 500px;
+}
+
+.scroll {
+  width: 30px;
+  height: 60px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.scroll::after {
+  content: "";
+  background-color: #fff;
+
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+  animation: move 2s ease-in-out infinite;
+}
+
+@keyframes move {
+  0% {
+    top: 10px;
+  }
+
+  30% {
+    top: 15px;
+  }
+  50% {
+    top: 20px;
+  }
+  60% {
+    top: 25px;
+    opacity: 0;
+  }
+  100% {
+    top: 30px;
+    opacity: 0;
+  }
+}
+
+.setting {
+  background-color: #000;
+  padding: 5px 20px;
+  color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.progress-bar {
+  background-color: var(--main-color);
+}
+
+.progress {
+  border-radius: 0;
+}
+
+.about-icon li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.about-icon li i {
+  transition: 0.4s;
+}
+.about-icon li:hover i {
+  color: var(--main-color);
+}
+
+/* =================== */
+
+.line {
+  width: 50px;
+  height: 3px;
+  background-color: var(--main-color);
+}
+
+.card-services i {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.card-services:hover i {
+  background-color: var(--main-color);
+  border-color: #f6ced5;
+  color: #fff;
+}
+
+/* ================= */
+
+.carousel-item img {
+  width: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+}
+
+/* ========================= */
+.port-layer {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.3s;
+}
+
+.port-details {
+  transform: translateY(200px);
+  transition: 0.3s;
+}
+
+.port-img:hover .port-details {
+  transform: translateY(0);
+}
+
+.port-img:hover .port-layer {
+  opacity: 1;
+}
+
+/* ======== Modal ========= */
+.modal-header {
+  border-bottom: 0;
+}
+
+.nav.nav-pills {
+  width: fit-content;
+  margin: auto;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: var(--main-color);
+}
+
+#portfolio .nav-pills .nav-link:hover {
+  color: #fff;
+  background-color: var(--main-color);
+}
+
+.nav-link {
+  color: #000;
+}
+
+#portfolio .nav-link:hover {
+  color: #000;
+}
+
+.blog-layer {
+  position: absolute;
+  inset: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transform: rotateY(180deg) scale(0);
+  transition: 0.4s;
+}
+
+.all-blog:hover .blog-layer {
+  opacity: 1;
+  transform: rotateY(0deg) scale(1);
+}
+
+.all-blog img {
+  transition: 0.4s;
+}
+.all-blog:hover img {
+  transform: scale(1.2);
+}
+/* ================= */
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: var(--main-color);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #e993a3;
+}
+
+.btn-form {
+  background-color: var(--main-color);
+  width: fit-content;
+  padding: 5px;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+/* ============ btn up =============*/
+.btn-up {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: var(--main-color);
+  color: #fff;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
